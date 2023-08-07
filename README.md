@@ -3,7 +3,7 @@
 A few notes:
 - GANLatentDiscovery is code of another repo of a GAN that I used for our milestone.
 - In order to run "research_milestone2", you need to make a directory called "models" and put the "G_ema.pth" file inside the directory.
-  I could not commit this file because it is too large. This file is the GAN weights file that is used in GANLatentRepository to return an instance of the trained GAN.
+  I could not commit this file because it is too large. This file is the GAN weights file that is used in GANLatentDiscovery to return an instance of the trained GAN.
   Then I use this instance in my "research_milestone2" code.
   
 
@@ -11,36 +11,38 @@ Results:
 
 Learning rate = 0.1 | # of epochs = 2000:
 
-![image](https://github.com/itayreznik/research/assets/62376544/fc30e63b-b345-4de6-8386-1474b7a7edee)
+![image](https://github.com/itayreznik/research/assets/62376544/b140b9ec-9295-409e-937e-fe66d50b8c37)
 
 Learning rate = 0.12 | # of epochs = 1000:
 
-![image](https://github.com/itayreznik/research/assets/62376544/5de39e59-86df-4e92-b77e-91c2e53cd781)
+![image](https://github.com/itayreznik/research/assets/62376544/a28b4d24-a5dd-4f78-a9c1-1264107e9041)
 
 Learning rate = 0.12 | # of epochs = 2000:
 
-![image](https://github.com/itayreznik/research/assets/62376544/27abafdd-5cc9-483f-b082-81d3397cdfac)
+![image](https://github.com/itayreznik/research/assets/62376544/f53ed3c7-02f7-4275-bff6-720424191cb0)
 
 Learning rate = 0.12 | # of epochs = 4000:
 
-![image](https://github.com/itayreznik/research/assets/62376544/3fc9292c-2a50-493b-b0dd-8bd3f2e2b031)
+![image](https://github.com/itayreznik/research/assets/62376544/1472c6c1-0e66-4906-b292-e54327b9f3f9)
 
 Learning rate = 0.12 | # of epochs = 8000:
 
-![image](https://github.com/itayreznik/research/assets/62376544/9db06ff1-ffef-496c-bad1-3def61b5de62)
+![image](https://github.com/itayreznik/research/assets/62376544/6adaebbb-69d3-417d-a667-98badc4ca6a5)
 
 Learning rate = 0.4 | # of epochs = 8000:
 
-![image](https://github.com/itayreznik/research/assets/62376544/68a7a777-f6f1-48d9-ad1c-df8a29f47a5d)
+![image](https://github.com/itayreznik/research/assets/62376544/a0f00e45-ee20-4eea-b4f2-eb913dd2e90e)
 
 Learning rate = 0.2 | # of epochs = 8000:
 
-![image](https://github.com/itayreznik/research/assets/62376544/ca8d0f2a-d44d-4061-877d-f71da157451e)
+![image](https://github.com/itayreznik/research/assets/62376544/a7c2decc-eb0f-42f3-a0a6-e73f92473e3e)
 
 Learning rate = 0.2 | # of epochs = 10000:
 
-![image](https://github.com/itayreznik/research/assets/62376544/a617a223-a332-4b8b-908b-53921f277f15)
+![image](https://github.com/itayreznik/research/assets/62376544/42fd3ca0-21ae-46e8-b44b-9cc3db267419)
 
 Learning rate = 0.2 | # of epochs = 15000:
 
-![image](https://github.com/itayreznik/research/assets/62376544/062c2a77-08c5-4f68-88fb-011513c5eaf4)
+![image](https://github.com/itayreznik/research/assets/62376544/4431d4aa-d36a-4d24-8c79-0ea987c9f553)
+
+
