@@ -1,12 +1,24 @@
 # research
 
+In milestone 2, I implemented a major change in the optimization architecture.
+
+Milestone 1 optimization architecture look liked this:
+Random image -> Robust Resnet50 -> Classification -> Optimization step. 
+The "training" was in regarding to the image pixel space. 
+
+Now, the optimization architecture looks like this:
+Random input vector -> BigGAN -> Generated image -> Robust Resnet50 -> Classification -> Optimization step. 
+The "training" is in regarding to the input vector space. 
+The goal was to match a classification of a Goldfish by setting the right loss function and sending the input vector to the optimzer.
+
+
 A few notes:
 - GANLatentDiscovery is code of another repo of a GAN that I used for our milestone.
 - In order to run "research_milestone2", you need to make a directory called "models" and put the "G_ema.pth" file inside the directory.
   This file is the GAN weights file that is used in GANLatentDiscovery to return an instance of the trained GAN. Then I use this instance in my "research_milestone2" code.
   I could not commit this file because it is too large, so here is a Google Drive link where you can download it:
   https://drive.google.com/file/d/1zuKAm0GiCiyCq_R3Qc89HDHwEcDZdoxX/view 
-  
+
   
 Results:
 
