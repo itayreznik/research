@@ -1,6 +1,7 @@
 # research
 
 In milestone 2, I implemented a major change in the optimization architecture.
+
 Milestone 1 optimization architecture looked liked this:
 
 Random image -> Robust Resnet50 -> Classification -> Optimization step. 
