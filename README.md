@@ -16,6 +16,7 @@ The "training" is in regarding to the GAN input vector space.
 
 The goal was to match a classification of a Goldfish by setting the right loss function and sending the input vector to the optimzer.
 
+The results show much clearer images compared to Milestone 1, but maybe some of them are not such a no-brainer to recognize as a Goldfish.
 
 A few notes:
 - GANLatentDiscovery is code of another repo of a GAN that I used for our milestone.
