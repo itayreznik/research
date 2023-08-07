@@ -16,7 +16,7 @@ The "training" is in regard to the GAN input vector space.
 
 The goal was to optimize the GAN's input vector to match Resnet50's classification of a specific class (Goldfish) by setting the proper loss function and sending the input vector to the optimizer.
 
-The results show much clearer images compared to Milestone 1. But maybe some of them are not such a no-brainer to recognize as a Goldfish and can be controversial.
+The results show much clearer images compared to Milestone 1. But maybe some of them are not such a no-brainer to recognize as a Goldfish and can be considered controversial.
 
 A few notes:
 - GANLatentDiscovery is code of another repo of a GAN that I used for our milestone.
