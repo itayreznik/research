@@ -3,12 +3,17 @@
 In milestone 2, I implemented a major change in the optimization architecture.
 
 Milestone 1 optimization architecture looked liked this:
+
 Random image -> Robust Resnet50 -> Classification -> Optimization step. 
+
 The "training" was in regarding to the image pixel space. 
 
 Now, the optimization architecture looks like this:
+
 Random input vector -> BigGAN -> Generated image -> Robust Resnet50 -> Classification -> Optimization step. 
+
 The "training" is in regarding to the GAN input vector space. 
+
 The goal was to match a classification of a Goldfish by setting the right loss function and sending the input vector to the optimzer.
 
 
