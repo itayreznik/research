@@ -2,6 +2,9 @@
 
 A few notes:
 - GANLatentDiscovery is code of another repo of a GAN that I used for our milestone.
+- In order to run "research_milestone2", you need to make a directory called "models" and put the "G_ema.pth" file inside the directory.
+  I could not commit this file because it is too large. This file is the GAN weights file that is used in GANLatentRepository to return an instance of the trained GAN.
+  Then I use this instance in my "research_milestone2" code.
   
 
 Results:
