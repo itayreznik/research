@@ -6,15 +6,15 @@ Milestone 1 optimization architecture looked liked this:
 
 Random image -> Robust Resnet50 -> Classification -> Optimization step. 
 
-The "training" was in regarding to the image pixel space. 
+The "training" was in regard to the image pixel space. 
 
 Now, the optimization architecture looks like this:
 
 Random input vector -> BigGAN -> Generated image -> Robust Resnet50 -> Classification -> Optimization step. 
 
-The "training" is in regarding to the GAN input vector space. 
+The "training" is in regard to the GAN input vector space. 
 
-The goal was to match a classification of a Goldfish by setting the right loss function and sending the input vector to the optimzer.
+The goal was to optimize the GAN's input vector to match Resnet50's classification of a specific class (Goldfish) by setting the proper loss function and sending the input vector to the optimzer.
 
 The results show much clearer images compared to Milestone 1, but maybe some of them are not such a no-brainer to recognize as a Goldfish.
 
