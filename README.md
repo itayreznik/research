@@ -1,5 +1,9 @@
 # research
 
+A few notes:
+- GANLatentDiscovery is code of another repo of a GAN that I used for our milestone.
+  
+
 Results:
 
 Learning rate = 0.1 | # of epochs = 2000:
